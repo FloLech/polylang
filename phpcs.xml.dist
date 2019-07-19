@@ -2,6 +2,10 @@
 <ruleset name="Polylang">
 	<description>Coding standards for Polylang</description>
 
+	<rule ref="WordPressVIPMinimum">
+		<exclude-pattern>tests/*</exclude-pattern>
+	</rule>
+
 	<rule ref="WordPress">
 		<exclude name="Generic.Classes.DuplicateClassName.Found"/>
 		<exclude name="Generic.Commenting.Fixme.TaskFound"/>
